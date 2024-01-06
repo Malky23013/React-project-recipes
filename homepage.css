@@ -1,0 +1,12 @@
+.image{
+   
+    
+}
+
+#imgAll{
+    background-image:  url("./images/img-home.jpg");
+    background-size: 100%;
+    padding: 4vh;
+    height: 100vh;
+    width: 100vw;
+}

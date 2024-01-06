@@ -1,0 +1,10 @@
+.wrapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+.all{
+    background-color: rgb(49, 45, 45);
+}

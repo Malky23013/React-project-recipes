@@ -1,0 +1,343 @@
+.App {
+  text-align: center;
+}
+
+.form-group {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.form-control {
+  font-size: 16px;
+  width: 250px;
+}
+
+.col-form-label {
+  text-align: center;
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}  */
+.inputs_submit {
+  text-align:center;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* .menu {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #f5f5f5;
+} */
+/* 
+.menu li {
+  margin: 15px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333;
+  padding: 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.menu li a:hover {
+  background-color: #d47777;
+} */
+.testimonial-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial {
+  width: calc(33.33% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.testimonial:last-child {
+  margin-right: 0;
+}
+#h2{
+  text-align: center;
+  color: #d47777;
+}
+#picShow {
+  width: 100%;
+  height: 600px; 
+  object-fit: cover;
+}
+#picNotShow{
+
+        display: none;              
+}
+#videoShow{
+  width: 100%;
+  height: 700px; 
+  object-fit: cover;
+}
+
+#heart {
+  color: aqua;
+  background-color: #333;
+}
+#heart span{
+  color:rgb(96, 206, 208);
+}
+#ingredientsId  {
+  list-style-type: none;
+}
+
+
+.category-submit {
+  background-color: black;
+  color: white;
+  padding: 6px 10px; /* שינוי בפרמטר העליון והתחתון */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.navbar.navbar-expand-lg.bg-dark {
+  position: sticky; 
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  z-index: 100; 
+}
+Link{
+  font-family: 'Noto Sans Hebrew', sans-serif;
+  font-size: 20px;
+}
+
+
+  /* .card {
+  box-shadow: 0 4px 8px rgba(19, 19, 19, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  width: 30vw;
+  height: 50vh;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-media {
+  height: 140px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-content p {
+  margin-bottom: 8px;
+}
+
+.card-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card-content li {
+  margin-bottom: 4px;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}  */
+
+/* button {
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}  */
+
+.card-container {
+  display: grid;
+  column-gap: 50px;
+    row-gap: 50px;
+
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+ .itemCard{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+ }
+
+.clickable-text {
+  cursor: pointer;
+ /*  color: rgb(0, 0, 0); or any other color to indicate it's clickable */
+  text-decoration: underline;
+}
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+th{
+  font-size: 1.5vw;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.shoppingListPage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.AddCard {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 400px; 
+}
+/* עיצוב לגלגלת בהוספת המתכון */
+.form-container {
+  max-height: 600px; /* Increase the max-height to your desired value */
+  max-width: 800px; /* Set your desired width */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px; /* Add some padding for better visual appearance */
+  overflow-y: auto;
+
+  /* Styles for the scrollbar */
+  scrollbar-color: yellow gray; /* thumb and track colors for Firefox */
+  scrollbar-width: thin; /* for Firefox */
+}
+
+/* Styles for Chrome, Edge, and Safari */
+.form-container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.form-container::-webkit-scrollbar-thumb {
+  background-color: rgba(4, 126, 156, 0.505); /* thumb color */
+}
+
+.form-container::-webkit-scrollbar-track {
+  background-color: gray; /* track color */
+}
+/* סגנון לשדות הקלט */
+.AddCard label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.AddCard input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+
+.AddCard button {
+  background-color: #fff;
+  color: #000;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* סגנון להוספת הוראות */
+.AddCard .instructions-container {
+  margin-bottom: 16px;
+}
+
+.AddCard .instructions-container input {
+  margin-bottom: 8px;
+}
+
+.AddCard .instructions-container button {
+  background-color: #fff;
+  color: #000;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+*/
+/* סגנון כללי ל-Container של הפילטרים */
+/* סגנון כללי ל-Container של הפילטרים */
+/* סגנון כללי ל-Container של הפילטרים */
+.filters {
+  display: flex;
+  flex-direction: row; /* שינוי לכיוון הצגת האופציות לצד במקום למעלה-מטה */
+  align-items: center; /* מיישר את הפילטרים לאמצע הדף */
+  gap: 10px; /* רווח בין כל פילטר לפילטר */
+}
+
+/* סגנון לאופציות בתוך ה-Select */
+.filters select {
+  padding: 8px;
+  font-size: 16px;
+}
+
+/* סגנון לכותרת */
+.category-header {
+  font-size: 20px;
+  margin-bottom: 5px;
+  align-self: center; /* מיישר את הכותרת לאמצע */
+}
+.addToListOnClick:hover{
+  cursor: pointer;
+  color: #747070;
+  
+}

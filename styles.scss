@@ -1,0 +1,72 @@
+.add-car-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the input fields */
+  .add-car-form input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  div{
+    background-color: #999;
+  }
+  /* Style the placeholder text */
+  .add-car-form input::-webkit-input-placeholder {
+    color: #999;
+    text-shadow: 1px 1px 0 #fff;
+  }
+  
+  /* Style the add car button */
+  .add-car-form button {
+    padding: 10px 20px;
+    background-color: aquamarine;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  .cars-list {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #037aa9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  #body{
+    background-color:lightseagreen;
+  }
+  
+  /* Style the car items */
+  .cars-list .car {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+  }
+  
+  /* Style the car number */
+  .cars-list .car .number {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Style the car company */
+  .cars-list .car .company {
+    font-size: 16px;
+  }

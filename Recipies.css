@@ -1,0 +1,8 @@
+.all_recipes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(49, 45, 45);
+}
